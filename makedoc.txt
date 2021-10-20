@@ -1,0 +1,45 @@
+Use miRDeep2 to identify novel miRNAs
+
+Step 1:
+Index the genome files. Genome files are DNA sequences
+
+We will use command:
+bowtie-build -f <input.fa> <output>
+to build the index genome file for each species.
+
+Step 2:
+Collapse reads for each species/organ
+
+We will use command:
+collapse_reads_md.pl <read.fa> <abbrev.> > collapsed_<read.fa>
+
+Example:
+collapse_reads_md.pl size_select_C20_Cgun24_2016_PectoralGirdle.fa c20 > collapsed_C20_Cgun24_2016_PectoralGirdle.fa
+
+Step 3:
+Create a bash script to iteratively run collapse_reads_md.pl for each specific/organ.
+
+Bash script can be found:
+/gpfs/projects/bgmp/shared/2021_projects/Postlethwait/Scripts/Pre_Processing_miRDeep2
+
+Step 4:
+Run mapper.pl
+
+We will use commad:
+mapper.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa -c -p index_Bovichtus_diacanthus.20181031.fixed_by_step3.fa -t reads_collapsed_vs_genome.arf
+
+Step 5:
+Run parse_mapping.pl to filer.arf file
+
+We will use command:
+parse_mappings.pl reads_collapsed_vs_genome.arf -a 0 -b 18 -c 25 -i 5 > reads_vs_genome_parsed.arf
+
+
+miRDeep2.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa index_Bovichtus_diacanthus.20181031.fixed_by_step3.fa reads_collapsed_vs_genome.arf miRBase_mmu_v14.fa mature_miRBase22_Chordates_Aal_FishmiRNA_Noto_211006.fas -t Fish 2>report.log
+
+
+
+
+mirdeep2bed.pl
+
+miRDeep2.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa Bovichtus_diacanthus.20181031.fixed_by_step3.fa reads_collapsed_vs_genome.arf none none none
