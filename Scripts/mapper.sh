@@ -14,9 +14,9 @@ ConfigFile=$1
 Genome=$2
 OutputDirectory=$3
 
-[ -d OutputDirectory ] || mkdir OutputDirectory
-mapper.pl ${ConfigFile} -d -c -j -i -l 17 -p ${Genome} -t ${OutputDirectory}/read_col_vs_genome.arf
+[ -d ${OutputDirectory} ] || mkdir ${OutputDirectory}
+mapper.pl ${ConfigFile} -d -c -j -i -l 17 -p ${Genome} -t ${OutputDirectory}/read_col_vs_genome.arf -s ${OutputDirectory}/reads.fa
 
-# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/reads/Size_Selected/Size_Select_Notothenia_coriiceps/Collapsed/config.txt
-# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/genome_assemblies/index_genomes/Notothenia_coriiceps/index_20160701_nco-male_nosplits.fa
-# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/Mappings/Notothenia_coriiceps
+# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/reads/Size_Selected/Size_Select_Champsocephalus_gunnari/Collapsed/config.txt
+# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/genome_assemblies/index_genomes/Champsocephalus_gunnari/index_champ.fa
+# /projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/Mappings/Champsocephalus_gunnari
