@@ -18,7 +18,7 @@ Table of contents
 Introduction
 ------------
 
-This section of the project contains all of the code that was used to run miRDeep2 analysis. It is structured in to the three main steps that were done on the data: pre-processing, running miRDeep2, and post-processing. 
+This section of the project contains all of the code that was used to run RNACoFold, which returns information regarding the sability of RNA dimers. For our purposes, we used the program to investigate miRNA dimers.
 
 Installation
 ------------
