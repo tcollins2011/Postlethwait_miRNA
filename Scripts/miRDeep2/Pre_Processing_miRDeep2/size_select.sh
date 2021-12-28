@@ -9,6 +9,7 @@ dir="/projects/bgmp/shared/2021_projects/Postlethwait/Provided_Project_Data/read
 
 ls -1 ${dir}| while read line
 do
+    # mkdir ${dir}/Size_Select_${line}
     ls -1 ${dir}${line}| while read file
     do
         python size_select.py -f ${dir}${line}/${file} --min 17 --max 25
