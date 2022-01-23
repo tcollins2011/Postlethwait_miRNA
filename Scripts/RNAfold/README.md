@@ -28,7 +28,7 @@ Talapas Installation
 
 Usage
 -----
-RNAfold -p -d2 --noLP -T <temperature in Celsius < <input_sequence.txt> > <output.txt>
+RNAfold -p -d2 --noLP -T <temperature in Celsius> < <input_sequence.txt> > <output.txt>
 
 Authors and history
 ---------------------------
