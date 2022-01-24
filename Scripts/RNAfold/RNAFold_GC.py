@@ -3,14 +3,14 @@ import argparse
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description="***FIX**")
+    parser = argparse.ArgumentParser(description="Returns a new csv with added columns pertaining to GC content")
     parser.add_argument(
         "-f",
         "--file",
-        help="***FIX***",
+        help="csv outputed from rna_fold_extract.py",
         required=True,
     ),
-    # parser.add_argument("-o", "--output", help="***FIX***", required=True)
+    # parser.add_argument("-o", "--output", help="Desired name for csv with GC content", required=True)
     return parser.parse_args()
 
 
