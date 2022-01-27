@@ -1,0 +1,12 @@
+>cac-mir-10585-hairpin
+tgcaagagcctcgatgaaatccctctatgttcctgcttcctgatacaggataggttgatt
+tcattgcatctcttcacta
+>cgu-mir-10585-hairpin
+tgcaagagcctcgatgaaatccctctatgttcctgcttcctgatacaggataggttgatt
+tcattgcatctcttcacta
+>ema-mir-10585-hairpin
+tgcaagatcctcgatgaaatcactctatgttcctgcttcctgatacaggataggttgatt
+tcatcgcgtctcttcacta
+>ggi-mir-10585-hairpin
+tgcaagagcctcgatgaaatccctctatgttcctgctgcctgatacaggataggttgatt
+tcattgcatctcttcacta

@@ -1,0 +1,15 @@
+>cac-mir-375a-hairpin
+-tatttgcttcacgttgagcctcacgtacaatacctgaagattaagttttgttcgttcgg
+ctcgcgttacgcaggtacg
+>ema-mir-375a-hairpin
+-tatttgcttcacgttgagcctcacgtacaatacctgaagatgaagttttgttcgttcgg
+ctcgcgttacgcaggtacg
+>gac-mir-375a-hairpin
+gtatttgcttcacgttgagccacacgtacaatacctgaagatgaagttttgttcgttcgg
+ctcgcgttacgcaggt---
+>ggi-mir-375a-hairpin
+-tatttgcttcacgttgagcctcacgtacaatacctgaagattaagttttgttcgttcgg
+ctcgcgttacgcaggtacg
+>nco-mir-375a-hairpin
+-tatttgcttcacgttgagcctcacgtacaatacctgaagattaagttttgttcgttcgg
+ctcgcgttacgcaggtacg

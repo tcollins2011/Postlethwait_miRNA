@@ -1,0 +1,9 @@
+>cac-mir-N1-hairpin
+acacatctaaatccgacaaattgtaatctgattaaatctaatctgattctctttttgttg
+cagttggggcctt
+>cgu-mir-N1-hairpin
+-cacatctaaatccgacaaattgtaatctgattaaatctaatctgattgtctttttgttg
+cagttggggcctt
+>ggi-mir-N1-hairpin
+-cacatctaaatccgacaaattgtaatctaattaaatctaatctgattgtctttttgttg
+cagttggggcct-

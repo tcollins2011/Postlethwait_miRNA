@@ -1,0 +1,3 @@
+>cgo-mir-363-hairpin
+tcgctgttttcagatggatgacttcacaatttcaatactagacaaaataaaagaaattgc
+acagtatccatctgcaagccgccaga

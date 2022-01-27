@@ -1,0 +1,3 @@
+>cgo-mir-N32-hairpin
+tggctgtgtcagcaggtggaagctctcatcaggacattaaatatgcaacaatgctgactg
+cggcaccgtgctgagacagccaaa

@@ -1,0 +1,12 @@
+>bdi-mir-23b-1-hairpin
+-gtggctgtgtgggtctctggcatgatgatttgggacagaaaatgaaaatcacattgcca
+gggattacaacacagctat
+>cgo-mir-23b-1-hairpin
+tgtggctgtgtgggtctctggcatgatgatttgggacagaaaatgaaaatcacattgcca
+gggattacaacactgctat
+>cgu-mir-23b-1-hairpin
+---ggctgtgagggtctctggcatgatgatttgggacagaaaacgaaaatcacattgcca
+gggattactacactgctgc
+>ema-mir-23b-1-hairpin
+tgtggcggtgtgggtctctggcatgatgatttgggacagaaaatgaaaatcacattgcca
+gggattactacactgctgc

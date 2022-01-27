@@ -1,0 +1,6 @@
+>cgo-mir-92b-1-hairpin
+gggggcgggcaggcccgggatgcggtgcattgttgtcacgtctcccctccaatattgcac
+tcgtcccggcctccccggcccagg
+>cgo-mir-92b-2-hairpin
+gggggcgggcaggcccgggatgcggtgcattgttgtcacgtctcccctccaatattgcac
+tcgtcccggcctccccggcccagg

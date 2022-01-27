@@ -1,0 +1,9 @@
+>bdi-let-7f-hairpin
+------tcatgcggtgtgaggtagtagattgtatagttgtagggtagtgattttgccctg
+tttgggagataactatacaatctattgccttccctgaggagtg----------
+>cgo-let-7f-hairpin
+------tcacacagtgtgaggtagtagattgtatagttgtagggtagtgattttgccctg
+tttgggagataactatacaatttattgccttccttgaggagtgg---------
+>gac-let-7f-hairpin
+gtttgctcacacagtatgaggtagtagattgtatagttttggggtagtgattttgccctg
+tttggaagataactatacaatctattgccttccctgaggagtagcatctcttc

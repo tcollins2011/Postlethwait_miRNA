@@ -1,0 +1,15 @@
+>cgo-mir-124-4b-hairpin
+------atcctctctcagtgttcacagtggaccttgatttaaaatcagccaattaaggca
+cgcggtgaatgccaagagaggagc-------------
+>cgu-mir-124-4b-hairpin
+------gtcctctctcagtgttcacagtggaccttgatttaaaatcagtcaattaaggca
+cgcggtgaatgccaagagagga---------------
+>ema-mir-124-4b-hairpin
+------atcctctctcagtgttcacagtggaccttgatttaaaatcagtcaattaaggca
+cgcggtgaatgccaagagaggagg-------------
+>gac-mir-124-4b-hairpin
+ctgggcttcctctctcagtgttcacagtggaccttgatttaaaatcattcaattaaggca
+cgcggtgaatgccaagagagaagccgctctgctccat
+>ggi-mir-124-4b-hairpin
+------gtcctctctcagtgttcacagtggaccttgatttcaaatcagtcaattaaggca
+cgcggtgaatgccaagagagga---------------

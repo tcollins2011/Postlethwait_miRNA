@@ -1,0 +1,3 @@
+>gac-mir-7147-hairpin
+gagtgcccagtgctgtaccatgctggtagccagtgtgtggtaggctctgctggttgacca
+gtgttgtgcctcactggctgctc

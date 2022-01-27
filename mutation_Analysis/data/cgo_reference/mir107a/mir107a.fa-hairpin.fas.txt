@@ -1,0 +1,12 @@
+>cac-mir-107a-hairpin
+gtgtgctgtgagcttctttacagtgttgccttgtggcatggggatcaagcagcattgtac
+agggctatcactgcacacag
+>cgo-mir-107a-hairpin
+gtgtgctgtgagcttctttacagtgttgccttgtggcatggcgatcaagcagcattgtac
+agggctatcactgcacaca-
+>cgu-mir-107a-hairpin
+gtgtgctgtgagcttctttacagtgttgccttgtggcatggggatcaagcagcattgtac
+agggctatcactgcacacag
+>ema-mir-107a-hairpin
+gtgtgctgtgagcttctttacagtgttgccttgtggcatggggatcaagcagcattgtac
+agggctatcactgcacacag

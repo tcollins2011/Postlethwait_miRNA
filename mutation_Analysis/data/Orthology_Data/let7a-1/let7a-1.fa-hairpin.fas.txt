@@ -1,0 +1,12 @@
+>bdi-let-7a-1-hairpin
+--taccatgggatgaggtagtaggttgtatagttttagggtcacacccgcactgggagat
+aactattcaacctactgtctttctcaaagtgcca
+>cgo-let-7a-1-hairpin
+--tacaatgggatgaggtagtaggttgtatagttttagggtcacacccgcactgggagat
+aactattcaacctactgtctttctcaaagtgcca
+>gac-let-7a-1-hairpin
+tgcactgtgggatgaggtagtaggttgtatagttttacggtcatacccgcactgggagat
+aactattaaacctactgtctttcccaaag-----
+>pfl-let-7a-1-hairpin
+--caccgtgggatgaggtagtaggttgtatagttttagggtcacacctgcactgggagat
+aactattcaacctactgtctttctcaaagtgcc-

@@ -1,0 +1,12 @@
+>ema-mir-153b-hairpin
+----tctgtccgtgtcattcttgtggtttgcagctagt-ttgtgtctccagttgcatagt
+cacaaaaatgatcatggactgat------------
+>gac-mir-153b-hairpin
+catatctgtctgtgtcattcttgtggtttgcaactagtagtctggctccagttgcatagt
+cacaaaaatgatcatggactgatgtggctgcagca
+>ggi-mir-153b-hairpin
+----tctgtctgtgtcattcttgtggtttgcagctagt-ttgtgtctccagttgcatagt
+cacaaaaatgatcatggactgat------------
+>nco-mir-153b-hairpin
+----tctgtctgtgtcattcttgtggtttgcagctagt-ttgtgtctccagttgcatagt
+cacaaaaatgatcatggactgat------------

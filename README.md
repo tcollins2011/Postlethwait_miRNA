@@ -1,7 +1,7 @@
 Evolution of miRNAs in Antarctic Icefish and Related Species
 =================================================
 
-## Introduction (#introduction)
+## Introduction 
 
 This repository contains scripts that have been used to analyze miRNA data.
 

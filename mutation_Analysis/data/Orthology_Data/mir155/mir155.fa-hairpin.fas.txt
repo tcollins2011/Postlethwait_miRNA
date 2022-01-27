@@ -1,0 +1,12 @@
+>cac-mir-155-hairpin
+catggtgaggttaatgctaatcgtgataggggttgtttattaccagacacctaacatgtt
+agcattagcttcactctg--
+>cgu-mir-155-hairpin
+catggtgaggttaatgctaatcgtgataggggttgtttattaccagacacctaacatgtt
+agcattagcttcactctg--
+>ema-mir-155-hairpin
+catgttgaggttaatgctaatcgtgataggggttgtttataaccagacacctaacatatt
+agcattatcttcactctggg
+>ggi-mir-155-hairpin
+catggtgaggttaatgctaatcgtgataggggttgtttattaccagacacctaacatgtt
+agcattagcttcactctgg-

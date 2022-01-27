@@ -1,0 +1,12 @@
+>cac-mir-31a-hairpin
+ccaggaaggaaggcaagatgttggcatagctgatgaagttaaaaccctgctatgccacca
+cattgccatctttctccccc
+>ema-mir-31a-hairpin
+ccaggaaggaaggcaagatgttggcatagctgatgaagttaaagccctgctatgccatca
+cattgccatctttctccccc
+>nco-mir-31a-hairpin
+ccaggaaggaaggcaagatgttggcatagctgatgaagttaaaaccctgctatgccacca
+cgttgccatctttctccacc
+>pfl-mir-31a-hairpin
+-caggaaggaaggcaagatgttggcatagctgctgagttgaaagccctgctatgccatca
+ctttgccatctttctctccc

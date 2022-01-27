@@ -1,0 +1,6 @@
+>bdi-mir-N25-hairpin
+catgccagtccagtaaactgtggcgggtacacataaactgtaactatacacgtcacggtt
+tatgggactgtcgcgac
+>cgo-mir-N25-hairpin
+catgccagtccagtaaactgtggcgggtacacataaactgtaattatacacgtcacggtt
+tatgggactgtcgtgac

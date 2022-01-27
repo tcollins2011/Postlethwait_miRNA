@@ -1,0 +1,6 @@
+>cgo-mir-182b-hairpin
+tcccacagtgtttggcaatggtagaactcactctggtgggctggaaggatccggtggttc
+tagacttgccaacaactgactgag
+>ggi-mir-182b-hairpin
+tcccacagtgtttggcaatggtagaactcactctggtgggctggaaggatccggtggttc
+tagacttgccaacaactgactgag

@@ -1,0 +1,15 @@
+>cgo-mir-135c-2-hairpin
+aactgtgtcttatggctttctattcctatgtgagtttgttctagcatttcatgtagggtt
+taaagccattggatacacggtg
+>cgu-mir-135c-2-hairpin
+aactgtgtcttatggctttctattcctatgtgagtttgttcgaacatttcatgtagggtt
+caaagccattggatacacactg
+>ema-mir-135c-2-hairpin
+aactgtgtcttatggctttctattcctatgtgagtttgttctaacatttcatgtagggtt
+caaagccattggatacacactg
+>ggi-mir-135c-2-hairpin
+aactgtgtcttatggctttctattcctatgtgagtttgttctaacatttcatgtagggtt
+caaagccattggatacacactg
+>nco-mir-135c-2-hairpin
+aactgtgtcttatggctttctattcctatgtgagtttgttctaacatttcatgtagggtt
+caaagccattggatacacactg

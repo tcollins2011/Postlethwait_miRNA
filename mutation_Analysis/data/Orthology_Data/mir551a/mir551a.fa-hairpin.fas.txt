@@ -1,0 +1,9 @@
+>cgo-mir-551a-hairpin
+cctgcccttagaaactaagtgtgggtgtggcctgaaaaacaaaaatggcgacccatcctt
+agtttctgaggtcctgca
+>ema-mir-551a-hairpin
+cctgcctttagaaaccaagtgtgggtgtggccggtaaaacaaaaatggcgacccatcctt
+agtttctgaggtcctgca
+>gac-mir-551a-hairpin
+-----ccttagaaactaagcgtgggtgtggcctggaaaagaaacacggcgacccatcctt
+agtttctgagg-------

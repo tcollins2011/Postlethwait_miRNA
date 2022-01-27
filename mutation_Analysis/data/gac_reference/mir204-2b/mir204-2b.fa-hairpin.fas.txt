@@ -1,0 +1,3 @@
+>gac-mir-204-2b-hairpin
+tgggacctatgggcttccctttgtcatcctatgcctggagctcggataaggcagggacag
+caaagggatgctcaactgtcaccaccgacttca

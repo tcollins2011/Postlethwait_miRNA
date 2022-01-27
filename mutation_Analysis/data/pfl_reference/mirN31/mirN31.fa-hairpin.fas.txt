@@ -1,0 +1,3 @@
+>pfl-mir-N31-hairpin
+tctctctcttcgctgctgccgactcacggttctctgactccaaaatggcggtttgaggcg
+ccgagcgagtctgtgagctttgagtcggcagcaacagcag

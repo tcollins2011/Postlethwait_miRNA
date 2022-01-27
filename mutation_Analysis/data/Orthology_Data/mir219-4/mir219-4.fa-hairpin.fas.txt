@@ -1,0 +1,3 @@
+>gac-mir-219-4-hairpin
+gtttgacagggattctggtgttgattgtccaaacgcaattcttgtgttacttctctatat
+ccaggagttgtggatggacatcatgcccccgactctcattcacttc

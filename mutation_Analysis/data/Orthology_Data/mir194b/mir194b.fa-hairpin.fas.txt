@@ -1,0 +1,3 @@
+>pfl-mir-194b-hairpin
+tctcaccagctgtaacagcatctccatatggaaaaactctggcttccagtggagctgctg
+ttatctgtggtgggac

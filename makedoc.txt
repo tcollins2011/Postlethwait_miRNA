@@ -25,21 +25,36 @@ Bash script can be found:
 Step 4:
 Run mapper.pl
 
-We will use commad:
+We will use command:
+With mapper.sh script--
+Mapper.sh will gather all the genome and config files needed to run mapper.pl. Mapper.sh will then generate a .arf file that will be placed in our mapper folder
+
+Example Command of mapper.pl
 mapper.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa -c -p index_Bovichtus_diacanthus.20181031.fixed_by_step3.fa -t reads_collapsed_vs_genome.arf
 
-Step 5:
+Optional
 Run parse_mapping.pl to filer.arf file
 
 We will use command:
 parse_mappings.pl reads_collapsed_vs_genome.arf -a 0 -b 18 -c 25 -i 5 > reads_vs_genome_parsed.arf
 
+Step 5: 
+Run miRDeep2.pl
 
-miRDeep2.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa index_Bovichtus_diacanthus.20181031.fixed_by_step3.fa reads_collapsed_vs_genome.arf miRBase_mmu_v14.fa mature_miRBase22_Chordates_Aal_FishmiRNA_Noto_211006.fas -t Fish 2>report.log
+We will use command:
+With miRDeep2.sh script--
+miRDeep2.sh will identify miRNA using the .arf file we generated, to produce an html file, bed file, and csv file. These files will contain information about our detected miRNA such as its sequences.
 
-
-
-
-mirdeep2bed.pl
-
+Example Command of miRDeep2.pl
 miRDeep2.pl collapsed_size_select_D27_Bdia_5_2004_HeartVentricle.fa Bovichtus_diacanthus.20181031.fixed_by_step3.fa reads_collapsed_vs_genome.arf none none none
+
+
+/home/sydes/miniconda3/envs/mirdeep2/bin/miRDeep2.pl ../../Cottoperca_gobio.all_reads.collapsed.fa ../../GCA_900634415.1_fCotGob3.1_genomic.first_word.fa ../../alignment.arf ../../Cottoperca_gobio.mature.first_word.fa ../../mature_miRBase22_Chordates_Dre_Gac_Loc_Bdi_Cgu_Cgo_Ema_Ggi_Nco_Cac_Ola_20200429_45ad199.first_word.fa ../../Cottoperca_gobio.hairpin.first_word.fa
+
+
+miRdeep2 collapsed_reads genome .arf_file  species_mature all_mature species_hairpin 
+
+
+# Phylogeny Tools
+NG Phylogeny 
+RAxML Black Box

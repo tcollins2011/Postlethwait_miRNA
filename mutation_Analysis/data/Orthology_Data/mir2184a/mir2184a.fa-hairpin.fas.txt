@@ -1,0 +1,9 @@
+>cac-mir-2184a-hairpin
+-ctcagccctgaacagtaagagtttatgtgctgttgttaatctgtcagcacatgagcttt
+tacggtgcagggaag-----
+>ema-mir-2184a-hairpin
+-ctcagccctgaacagtaagagtttatgtgctgttgttaatctgtcagcacatgagcttt
+tacggtgcagggagc-----
+>gac-mir-2184a-hairpin
+cctccgccctgaacagtaagagtttatgtgctgttgttcatctgtcagcacatgagcttt
+tacggttaagggaggaagag
