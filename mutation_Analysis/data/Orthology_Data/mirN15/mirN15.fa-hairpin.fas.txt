@@ -1,0 +1,6 @@
+>cac-mir-N15-hairpin
+tgctaaggacaccgttctgcttctcaacccgatcattgtgccggatctggttggctgaca
+aagctgtgtgtttggtatg
+>nco-mir-N15-hairpin
+tgctaaggacaccgttctgcttctcaacccgatcattgtgccggatctggttggctgaca
+aagctgtgtgtttggtatg

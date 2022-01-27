@@ -1,0 +1,3 @@
+>cac-mir-N4-hairpin
+tgtaacagaacccgtagtaaacagtaaccgctcacgttaactaaaagtggttactgttta
+atactcgacattggtcca

@@ -1,0 +1,6 @@
+>cgu-mir-N8-hairpin
+cttcggcagtcgacctccttctttcctctgtatccgatcacgaaggcagtggaagaacgt
+gggctggctgccttacgc
+>nco-mir-N8-hairpin
+cttcggcagtcgacctccttctttcctctgtatccgatcactaaggcagtggaagaacgt
+gggctggctgccttacg-

@@ -1,0 +1,15 @@
+>cac-mir-138ba-hairpin
+---ggggagggtcagctggtgttgtgaatcaggccgctgacgcgtc-acacacggcttct
+tcacaaccccagggaccctccctac
+>cgu-mir-138ba-hairpin
+---ggggagggtcagctggtgttgtgaatcaggccgctgacgcgtc-acacacggcttct
+tcacaaccccagggacgctccctac
+>ema-mir-138ba-hairpin
+---ggggagggtcagctggtgttgtgaatcaggccgctgaagcgtc-agacacggcttct
+tcacaaccccagggatcctccctac
+>gac-mir-138ba-hairpin
+ggcggggagggtcagctggtgttgtgaatcaggccgctgaggtgtcgagacacggcttct
+tcacaacaccagggttcctcctcgc
+>ggi-mir-138ba-hairpin
+---ggggagggtcagctggtgttgtgaatcaggccgctgaagcgtc-acacacggcttct
+tcacaaccccagggaccgtccctac

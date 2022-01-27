@@ -1,0 +1,3 @@
+>cac-mir-N16-hairpin
+tggcctgaaccctagccccgtgactgtcctgctcaatgaagcagtgcatgatggggctag
+tgttcctgctatg

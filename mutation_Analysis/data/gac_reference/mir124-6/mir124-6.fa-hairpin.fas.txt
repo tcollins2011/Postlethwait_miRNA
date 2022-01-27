@@ -1,0 +1,6 @@
+>ema-mir-124-6-hairpin
+-------tccctctcctcgtgttcacggcggaccttgatttattagacaaacaattaagg
+cacgcggtgaatgccaagagaggagc----------------
+>gac-mir-124-6-hairpin
+acaggattgccactcctcgtgttcacggcggaccttgatttattagcaatacaattaagg
+cacgcggtgaatgccaagagaggaatcccactatccactaac

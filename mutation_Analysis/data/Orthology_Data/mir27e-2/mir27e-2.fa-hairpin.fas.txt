@@ -1,0 +1,15 @@
+>cac-mir-27e-2-hairpin
+---ctgaagatgcagaacttagctcattagtgagcattgaaacaaacaagaattgttcac
+agtggctaagttcagtgtctgacatg
+>cgo-mir-27e-2-hairpin
+tttctgaagatgcagaacttagctcattagtgagcattgaaccaaacaagaattgttcac
+agtggctaagttcagtgtctgacatg
+>cgu-mir-27e-2-hairpin
+--tctgaagatgcagaacttagctcattagtgagcattgaaacaaacaagaattgttcac
+agtggctaagttcagtgtctgacatg
+>ggi-mir-27e-2-hairpin
+tttctgaagatgcagaacttagctcattcgtgagcattgaaacaaacaagaattgttcac
+agtggctaagttcagtgtctgacatg
+>nco-mir-27e-2-hairpin
+tttctgaagatgcagaacttagctcattagtgagcattgaaacaaacaagaattgttcac
+agtggctaagttcagtgtctgacatg

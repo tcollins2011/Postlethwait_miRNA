@@ -1,0 +1,3 @@
+>bdi-mir-34b-hairpin
+gttgctgtgcaggcagtgttgttagctgattgttcttacaccaatcacaaactacaccac
+cagtacaaccaccg

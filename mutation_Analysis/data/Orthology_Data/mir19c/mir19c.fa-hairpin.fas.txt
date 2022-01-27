@@ -1,0 +1,6 @@
+>cgu-mir-19c-hairpin
+gtttacagccagttttgttggtttgctctcagctgttgccagtctctgctgtgcaaatcc
+atgcaaagctctctgttgctca
+>gac-mir-19c-hairpin
+--------ggagttttgttggtttgctttcagcctctgccagtctctgctgtgcaaatcc
+atgcaaagctct----------

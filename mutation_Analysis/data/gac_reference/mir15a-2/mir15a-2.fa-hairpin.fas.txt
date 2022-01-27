@@ -1,0 +1,15 @@
+>cac-mir-15a-2-hairpin
+--ggcgatgctgtagcagcacggaatggtttgtgggttacacagagatgcaggccatgct
+gtgctgccgcagaagagcc--
+>cgu-mir-15a-2-hairpin
+--ggcgatgctgtagcagcacggaatggtttgtgggttacacagagatgcaggccatgct
+gtgctgccgcagaagagcc--
+>ema-mir-15a-2-hairpin
+--ggcgatgctgtagcagcacggaatggtttgtgggttacacagagatgcaggccatact
+gtgctgccgcagaaaagcctg
+>gac-mir-15a-2-hairpin
+ctggtgatgctgtagcagcacggaatggtttgtgggttacactgagatgcaggccatgct
+gtgctgccaca----------
+>ggi-mir-15a-2-hairpin
+--ggcgatgctgtagcagcacggaatggtttgtgagttacatagagatgcaggccatact
+gtgctgccgcagaagagcct-

@@ -1,0 +1,9 @@
+>cgo-mir-137-2a-hairpin
+-------------ctcttcggtgacgggtattcttgggtggataatacggatcacgttgt
+tattgcttaagaatacgcgtagtcgaggag-----------------
+>gac-mir-137-2a-hairpin
+tcactgaaagactctcttcggtgacgggtattcttgggtggataatacggatcacgttgt
+tattgcttaagaatacgcgtagtcgaggagagtcctctcttcgccaa
+>pfl-mir-137-2a-hairpin
+--------------tcttcggtgacgggtattcttgggtggataatacggatcacgttgt
+tattgcttaagaatacgcgtagtcgaggag-----------------

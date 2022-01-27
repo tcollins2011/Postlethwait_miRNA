@@ -1,0 +1,9 @@
+>cgo-mir-2187b-hairpin
+-ggttctggctttaattagtacagcctgtattagtaatgtcatctattctttacaggcta
+tgctaatctatgccagaat--
+>ema-mir-2187b-hairpin
+-ggttctggctttaattagtacagcctgtattagtgatgtcatctattctttacaggcta
+tgctaatctatgccagaacca
+>nco-mir-2187b-hairpin
+tggttctggctttaattagtacagcctgtattagtaatgttatctattctttacaggcta
+tgctaatctatgccagaacca

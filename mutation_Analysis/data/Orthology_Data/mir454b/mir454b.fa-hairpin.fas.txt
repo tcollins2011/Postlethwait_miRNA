@@ -1,0 +1,9 @@
+>bdi-mir-454b-hairpin
+tgcagacaagaccctatcaatattgcctctgctttcactagagttaacagagtagtgcaa
+tattgcttatagggtcttgactctg
+>cgo-mir-454b-hairpin
+tgcagacgagaccctatcaatattgcctctgctttcactagagttaacagagtagtgcaa
+tattgcttatagggtcttgactctg
+>pfl-mir-454b-hairpin
+-gcagacgagaccctatcaatattgcctctgctttcactagagttaacagagtagtgcaa
+tattgcttatagggtcttgactatc

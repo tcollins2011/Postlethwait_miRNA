@@ -1,0 +1,4 @@
+>gac-mir-3120a-hairpin
+tggctcatggggcaggctgacgtctatctgcctgtctgtgcctgctgtacaggttggagg
+ttattctgcacagcaagtgtagataggcagacacactgcaactccttcagccagttggtg
+ttt

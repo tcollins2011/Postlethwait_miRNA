@@ -1,0 +1,15 @@
+>cgo-mir-723a-hairpin
+gcaaggataacggcagctttgtatgatgttacttctgacacatcggagaagacatcagat
+aaatctgtgcttatccttgtt
+>cgu-mir-723a-hairpin
+gcaaggataacggcagctttgtatgatgttacttctgacatatcggagaagacatcagat
+aaatctgtgcttatccttgtt
+>ema-mir-723a-hairpin
+gcaaggataacggcagctttgtatgatgttacttctgacatatcggagaagacatcagat
+aaatctgtgcttatccttgtt
+>ggi-mir-723a-hairpin
+gcaaggataacggcagctttgtatgatgttacttctgacatatcggagaagacatcagat
+aaatctgtgcttatccttgtc
+>nco-mir-723a-hairpin
+gcaaggataacggcagctttgtatgatgttacttctggtatatcggagaagacatcagat
+aaatctgtgcttatccttgtt

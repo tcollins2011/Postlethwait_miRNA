@@ -1,0 +1,3 @@
+>cgu-mir-N7-hairpin
+atcccaaggccacaacagcttagagaaatgcatttcatttgataattctcaatttatata
+catttcttttgttgttgtagcaaattcagc

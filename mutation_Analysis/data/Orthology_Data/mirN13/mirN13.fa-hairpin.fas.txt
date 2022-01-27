@@ -1,0 +1,6 @@
+>cgu-mir-N13-hairpin
+cctaggtgactgactgactggatgcatcgagaaggcctttcattcaatattctcactgta
+ggcagccagtcagccagccaagg
+>nco-mir-N13-hairpin
+cctaggtgactgactgactggatgcatagagaaggcctttcattcaatattctcactgta
+ggcagccagtcagccagccaagg

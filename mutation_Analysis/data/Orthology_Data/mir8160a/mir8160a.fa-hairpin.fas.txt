@@ -1,0 +1,6 @@
+>ema-mir-8160a-hairpin
+tggggcggtcagaataatgccagcagtcggtcgtggtgtcccagggaccagcactggtgt
+tattgagactgactcagt
+>ggi-mir-8160a-hairpin
+tggggtggtcagaataatgccagcagtcggtcgtggtgtcccagggaccagcactggtgt
+tattgagactgcctcagt

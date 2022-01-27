@@ -1,0 +1,15 @@
+>ema-mir-202-hairpin
+ctgttcctttttcctatgcatatacctctttcagatgtcactttaaagaggcatagggca
+tgggaaaatggggctgc
+>gac-mir-202-hairpin
+----tcctttttcctatgcatatacctttttcagatgtaactttaaagaggtatagggca
+tgggaaaatgggg----
+>ggi-mir-202-hairpin
+ctgttcctttttcctatgcatatacctctttcagatgtcactttaaagaggcatagggca
+tgggaaaatggggctgc
+>nco-mir-202-hairpin
+ctgttcctttttcctatgcatatacctctttcagatgtcactttaaagaggcatagggca
+tgggaaaatggggctgc
+>pfl-mir-202-hairpin
+ctgttcctttttcctatgcatatacctttttcagatgtaactttaaagaggcatagggca
+tgggaaaatggggct--

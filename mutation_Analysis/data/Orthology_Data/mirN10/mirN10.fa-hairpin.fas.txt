@@ -1,0 +1,6 @@
+>cgu-mir-N10-hairpin
+gcaaacagcatttcccaagactgacagatatatttcaacacatgtctgtcagtcttggga
+aatgctgtttgct
+>ggi-mir-N10-hairpin
+gcaaacagcatttcccaagactgacagatatattccaacatatgtctgtcagtcttggga
+aatgctgtttgct

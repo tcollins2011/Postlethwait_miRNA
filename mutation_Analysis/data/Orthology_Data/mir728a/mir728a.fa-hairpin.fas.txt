@@ -1,0 +1,12 @@
+>cgo-mir-728a-hairpin
+gccctggggaaatgtagttgacttaaagtatacgtgtggaaccagagagtatactaagta
+cactacgtttatccaggggag
+>ema-mir-728a-1-hairpin
+accctggggaaatgtagttgacttaaagtatacgtgtggaaccagagagtatactaagta
+cactacgtttatccaggggag
+>ema-mir-728a-2-hairpin
+accctggggaaatgtagttgacttaaagtatacgtgtggaaccagagagtatactaagta
+cactacgtttatccaggggag
+>gac-mir-728a-hairpin
+------gagaaatgtagtagacttaaagtatacgtgtggagccagagagtatactaagta
+cactacgtttat---------

@@ -1,0 +1,15 @@
+>cac-mir-133b-hairpin
+ccttgctgtggctggtcaaacggaaccaagtcaggtgtttctgtgaggtttggtcccctt
+caaccagctactgcgtcgtg
+>cgo-mir-133b-hairpin
+ccttgctgtggctggtcaaacggaaccaagtcaggtgtttctgtgaggtttggtcccctt
+caaccagctactgcgtcgtg
+>cgu-mir-133b-hairpin
+ccttgctgtggctggtcaaacggaaccaagtcaggtgtttctgtgaggtttggtcccctt
+caaccagctactgcgtcgtg
+>ema-mir-133b-hairpin
+ccttgctgtggctggtcaaacggaaccaagtcaggtgtttctgtgaggtttggtcccctt
+caaccagctactgcgtcgtg
+>nco-mir-133b-hairpin
+ccttgctgtggctggtcaaacggaaccaagtcaggtgtttctgtgaggtttggtcccctt
+caaccagctactgcgtcgtg
