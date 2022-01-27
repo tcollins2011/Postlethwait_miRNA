@@ -7,7 +7,6 @@ Table of contents
 
 * [Introduction](#introduction)
 * [Installation](#installation)
-* [Usage](#usage)
 * [Authors and history](#authors-and-history)
 * [Acknowledgments](#acknowledgments)
 
@@ -32,10 +31,6 @@ perl install.pl
 
 This will start the installer and download and install all third party dependencies. 
 
-Usage
------
-
-
 Authors and history
 ---------------------------
 
@@ -48,4 +43,5 @@ Authors and history
 Acknowledgments
 ---------------
 
-We wish to extend a heartfelt thanks to all faculty of BGMP for their assitance. 
+We’d like to thank Dr. Thomas Desvignes and Dr. John Postlethwait for their guidance on the project, as well as the wonderful BGMP staff: Jason Sydes, Pete Batzel, Dr. Leslie Coonrod, and Dr. Stacey Wagner.
+Sequencing performed at the University of Oregon Genomics Characterization Core Facility (GC3F). This work benefited from access to the University of Oregon supercomputer, Talapas.

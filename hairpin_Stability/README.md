@@ -42,4 +42,5 @@ Authors and history
 Acknowledgments
 ---------------
 
-We wish to extend a heartfelt thanks to all faculty of BGMP for their assitance. 
+We’d like to thank Dr. Thomas Desvignes and Dr. John Postlethwait for their guidance on the project, as well as the wonderful BGMP staff: Jason Sydes, Pete Batzel, Dr. Leslie Coonrod, and Dr. Stacey Wagner.
+Sequencing performed at the University of Oregon Genomics Characterization Core Facility (GC3F). This work benefited from access to the University of Oregon supercomputer, Talapas.
