@@ -1,6 +1,3 @@
-cofold_prep.py takes a csv with miRNA dimer sequences and their names. The script expects the dimer sequnces in the first and third column and the names of the miRNAs in the second and fourth column.
-The output is a fasta file with the miRNA names as the headers with a "+" between them, and the two sequnces as the sequence line with a "$" between them (this $ is required by the RNACoFold software)
-
 RNACoFold Dimer Analysis
 =================================================
 
@@ -23,20 +20,28 @@ This section of the project contains all of the code that was used to run RNACoF
 Installation
 ------------
 
-If miRDeep2 isn't installed yet you can obtain the main package from miRDeep2 and the patched files from patch by clicking on 'Clone or download' and then on 'Download Zip'. Extract the zipped files and then open a command line window. If you have git installed you can obtain the packages also directly from the command line by typing
-
-git clone https://github.com/rajewsky-lab/mirdeep2.git
-and
-git clone https://github.com/Drmirdeep/mirdeep2_patch.git
-
-To install the main package enter the directory was exracted to and then type:
-
-perl install.pl
-
-This will start the installer and download and install all third party dependencies. 
+We installed ViennaRNA version 2.5.0 (the software suite containing RNACoFold) using bioconda:
+***
+conda install -c bioconda viennarna
+***
+You can only install it using the instructions on the ViennaRNA github:
+https://github.com/ViennaRNA/ViennaRNA 
 
 Usage
 -----
+**cofold_prep.py:**
+Takes a csv with miRNA dimer sequences and their names. The script expects the dimer sequnces in the first and third column and the names of the miRNAs in the second and fourth column.
+
+The output is a fasta file with the miRNA names as the headers with a "+" between them, and the two sequnces as the sequence line with a "&" between them (this & is required by the RNACoFold software)
+
+**RNACoFold:**
+RNACoFold -p --temp=<tempurature in celcius> < <input fasta> > <output file>
+
+**Process_cofold_results.py**
+Takes RNACofold output file (-f) and returns an output csv file (-o) with all relevant information in columns
+
+**GC_content_check.py**
+Takes Process_cofold_results.py output (-f) and reuturns an output csv file (-o) that contains all info from the input file with added columns from GC content, as well as the percentage of Gs and Cs that are paired or unpaired in the dimer according to the RNACoFold predicted pairing.
 
 
 Authors and history
