@@ -26,7 +26,7 @@ In addition, Antarctic fishes include the truly unique, white-blooded icefishes,
 
 This project uses 68 small read RNA data extracted from 7 species of fish, shown in the phylogeny below, their completed genomes and a list of all known miRNA for each species [[1]] (http://www.fishmirna.org/). This data was run through the workflow outlined in the miRDeep2 subdirectory to detect novel microRNA's and a selected subset of the discovered novel microRNA and all known microRNA's was analyzed using the procedures outlined in the remaining subdirectories. 
 
-(./images/Readme_phylogeny.JPG)
+![cover](./images/Readme_phylogeny.JPG)
 
 ## Usage
 - Clone the repository
