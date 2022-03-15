@@ -1,3 +1,7 @@
+'''
+Usage: python3 seqExtract.py
+'''
+
 import pandas as pd
 import pprint
 import math
