@@ -37,10 +37,10 @@ git clone 'https://github.com/tcollins2011/Postlethwait_miRNA'
 
 ## Authors and History
 
-* Logan Lewis - Algorithm Design, Contact:
+* Logan Lewis - Algorithm Design, Contact: loganlewis51@gmail.com
 * Beagan Nguy - Algorithm Design, Contact: bnguy@ucsc.edu
-* Tyler Collins - Algorithm Design, Contact:
-* Thomas Desvignes - Conceptual Design Leader
+* Tyler Collins - Algorithm Design, Contact: tcollin2@uoregon.edu
+* Thomas Desvignes - Conceptual Design Leader, Contact: tdesvign@uoregon.edu
 * John H. Postlethwait - Project Advisor
 
 ## Acknowledgments
