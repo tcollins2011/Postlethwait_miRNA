@@ -1,3 +1,10 @@
+'''
+This script extract the major measurements from Vienna RNA fold raw output. The extracted measurements is generated on to an excel sheet.
+Line to change for input is 77 and 101
+
+Usage: python3 rna_fold_extract.py
+'''
+
 import pandas as pd
 import re
 
