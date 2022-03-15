@@ -48,7 +48,7 @@ def determine_region(p5,p3,position):
         else:
             return '5p'
     elif position > max(p5) and position < min(p3): 
-        return 'hairpin'
+        return 'loop'
     elif position in p3:
         if position > min(p3) + 1 and position < min(p3) + 9:
             return '3p-seed'
