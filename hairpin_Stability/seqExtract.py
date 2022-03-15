@@ -36,65 +36,68 @@ def ReverseComplement(seq):
 
 
 # Start-------------------
+def main():
+	bdia = pd.read_excel('Emac_NovelHairpinPositions_211210.xlsx', index_col=None)
+	hairpin_names = bdia['Hairpin_name'].tolist()
+	hairpin_position_annot = bdia['Hairpin_position_annotation'].tolist()
+	hairpin_position_m2m = bdia['Hairpin_position_m2m'].tolist()
+	strand = bdia['Strand'].tolist()
 
-bdia = pd.read_excel('Emac_NovelHairpinPositions_211210.xlsx', index_col=None)
-hairpin_names = bdia['Hairpin_name'].tolist()
-hairpin_position_annot = bdia['Hairpin_position_annotation'].tolist()
-hairpin_position_m2m = bdia['Hairpin_position_m2m'].tolist()
-strand = bdia['Strand'].tolist()
+	index_dict = dict()
 
-index_dict = dict()
+	for header, sequence in oneline_fasta('Emaclovinus_scaffolds_v1.fa'):
+		head = header.split(" ")
+		index_dict[head[0]] = sequence
 
-for header, sequence in oneline_fasta('Emaclovinus_scaffolds_v1.fa'):
-	head = header.split(" ")
-	index_dict[head[0]] = sequence
+	#pprint.pprint(index_dict.keys())
 
-#pprint.pprint(index_dict.keys())
+	out_combine = 'Emac_Hairpin_m2m_Sequence.fa'
+	m2m = open('{}'.format(out_combine),'w')
 
-out_combine = 'Emac_Hairpin_m2m_Sequence.fa'
-m2m = open('{}'.format(out_combine),'w')
+	annot_combine = 'Emac_Hairpin_Annotation_Sequence.fa'
+	annotation = open('{}'.format(annot_combine),'w')
 
-annot_combine = 'Emac_Hairpin_Annotation_Sequence.fa'
-annotation = open('{}'.format(annot_combine),'w')
+	for count in range(0, len(hairpin_names), 1):
+		sequence_positions = ''
+		annotation.write('>' + hairpin_names[count] + '\n')
+		split_1 = hairpin_position_annot[count].split(':')
+		index = split_1[0]
+		positions = split_1[1]
+		positions_split = positions.split('-')
+		position_1 = positions_split[0] 
+		position_2 = positions_split[1]
 
-for count in range(0, len(hairpin_names), 1):
-	sequence_positions = ''
-	annotation.write('>' + hairpin_names[count] + '\n')
-	split_1 = hairpin_position_annot[count].split(':')
-	index = split_1[0]
-	positions = split_1[1]
-	positions_split = positions.split('-')
-	position_1 = positions_split[0] 
-	position_2 = positions_split[1]
+		sequence = index_dict[index]
+
+		if strand[count] == '+':
+			sequence_positions = sequence[int(position_1)-1:int(position_2)]
+		else:
+			sequence_positions = sequence[int(position_2)-1:int(position_1)]
+			sequence_positions = ReverseComplement(sequence_positions)
+		annotation.write(sequence_positions + '\n')
+
+		# ---------------------------------------------
+
+		# When hairpin position equals NA
+		if pd.isna(hairpin_position_m2m[count]):
+			continue
+
+		sequence_positions = ''
+		m2m.write('>' + hairpin_names[count] + '\n')
+		split_1 = hairpin_position_m2m[count].split(':')
+		index = split_1[0]
+		positions = split_1[1]
+		positions_split = positions.split('-')
+		position_1 = positions_split[0] 
+		position_2 = positions_split[1]
+		sequence = index_dict[index]
+
+		if strand[count] == '+':
+			sequence_positions = sequence[int(position_1)-1:int(position_2)]
+		else:
+			sequence_positions = sequence[int(position_2)-1:int(position_1)]
+			sequence_positions = ReverseComplement(sequence_positions)
+		m2m.write(sequence_positions + '\n')
 	
-	sequence = index_dict[index]
-
-	if strand[count] == '+':
-		sequence_positions = sequence[int(position_1)-1:int(position_2)]
-	else:
-		sequence_positions = sequence[int(position_2)-1:int(position_1)]
-		sequence_positions = ReverseComplement(sequence_positions)
-	annotation.write(sequence_positions + '\n')
-
-	# ---------------------------------------------
-
-	# When hairpin position equals NA
-	if pd.isna(hairpin_position_m2m[count]):
-		continue
-
-	sequence_positions = ''
-	m2m.write('>' + hairpin_names[count] + '\n')
-	split_1 = hairpin_position_m2m[count].split(':')
-	index = split_1[0]
-	positions = split_1[1]
-	positions_split = positions.split('-')
-	position_1 = positions_split[0] 
-	position_2 = positions_split[1]
-	sequence = index_dict[index]
-
-	if strand[count] == '+':
-		sequence_positions = sequence[int(position_1)-1:int(position_2)]
-	else:
-		sequence_positions = sequence[int(position_2)-1:int(position_1)]
-		sequence_positions = ReverseComplement(sequence_positions)
-	m2m.write(sequence_positions + '\n')
+if __name__ == "__main__":
+    main()
