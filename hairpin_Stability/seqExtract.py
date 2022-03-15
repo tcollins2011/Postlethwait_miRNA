@@ -1,5 +1,10 @@
 '''
+This script extracts a the sequences from a fasta file given the coordinates of the miRNAs
+
 Usage: python3 seqExtract.py
+Line 47 and 55 needs to be edited to the name of the input files. 
+Line 47 for the input excel sheet containing the coordinates
+Line 55 for the input fasta file
 '''
 
 import pandas as pd
