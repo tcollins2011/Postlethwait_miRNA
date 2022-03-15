@@ -8,7 +8,6 @@ Line 55 for the input fasta file
 '''
 
 import pandas as pd
-import pprint
 import math
 
 def oneline_fasta(file):	
