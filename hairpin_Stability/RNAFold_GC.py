@@ -3,7 +3,9 @@ import argparse
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Returns a new csv with added columns pertaining to GC content")
+    parser = argparse.ArgumentParser(
+        description="Returns a new csv with added columns pertaining to GC content"
+    )
     parser.add_argument(
         "-f",
         "--file",
@@ -21,7 +23,7 @@ args = get_args()
 filename = args.file.split(".")[0]
 fh_out = open(f"{filename}_w_gc.csv", "w")
 
-# (I think) I only want to count paired GC's one to avoid double counting them
+# I only want to count paired GC's one to avoid double counting them
 paired_list = ["G(", "C(", "G)", "C)"]
 unpaired_list = ["G.", "C."]
 

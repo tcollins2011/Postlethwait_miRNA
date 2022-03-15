@@ -1,0 +1,141 @@
+---
+title: "Sequence Changes"
+author: "Logan Lewis"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This script plots the number of mutations per species in a given region.
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+library(gridExtra)
+```
+
+```{r}
+dat <- read.csv("test.csv") #change this csv
+```
+
+```{r}
+# Number_of_Mutations = sum(which(dat$Species == unique(dat$Species))), 
+total <- c(unique(dat$Total), 244)
+
+dat_counts <- data.frame(Species = unique(dat$Species), Totals = total)
+vec <- c()
+for(i in dat_counts$Species){
+  vec <- c(vec, length(which(dat$Species == i)))
+}
+dat_counts$Number_of_mut <- vec
+
+dat_counts <- mutate(dat_counts, Mutations_per_gene = dat_counts$Number_of_mut/dat_counts$Totals)
+```
+
+```{r}
+adjust_for_total <- function(x) {
+  #funtion that divides the number of counts by the total number of miRNA genes for that species
+  vect <- c()
+  for(i in unique(x$Species)){
+    vect <- c(vect, length(which(x$Species== i)))
+  }
+  dat_fram <- data.frame(Species = unique(x$Species), Counts = vect)
+  dat_fram <- mutate(dat_fram, Mutations_per_gene = dat_fram$Counts/dat_counts$Totals)
+  dat_fram$Species <- factor(dat_fram$Species, c("gac", "bdi", "cgo", "ema", "ggi", "nco", "cgu", "cac"))
+  return(dat_fram)}
+
+```
+
+
+
+```{r}
+ggbarplot(data = dat_counts, x = "Species", y = "Mutations_per_gene", title = "Total mutations per miRNA gene")
+```
+
+```{r, fig.height=4}
+dat_mats <- filter(dat, dat$Feature == "5p" | dat$Feature == "3p" | dat$Feature == "5p-seed" | dat$Feature == "3p-seed")
+data_fram <- adjust_for_total(dat_mats)
+a <- ggbarplot(data = data_fram, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Mature Region", fill = c("#ff624c","#fe948c",                                                                                                    
+"#60d933",
+"#017300",
+"#89bde1",
+"#42aff6",
+"#004c7f",
+"#00a0f9"))
+
+dat_out <- filter(dat, dat$Feature == "head" | dat$Feature == "tail" | dat$Feature == "loop")
+data_fram <- adjust_for_total(dat_out)
+b <- ggbarplot(data = data_fram, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Mature Region", fill = c("#ff624c","#fe948c",                                                                                             
+"#60d933",
+"#017300",
+"#89bde1",
+"#42aff6",
+"#004c7f",
+"#00a0f9"))
+
+grid.arrange(a,b, heights = c(2,2))
+```
+
+```{r}
+dat_seeds <- filter(dat, dat$Feature == "5p-seed" | dat$Feature == "3p-seed")
+data_fram1 <- adjust_for_total(dat_seeds)
+ggbarplot(data = data_fram1, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Seed Regions")
+```
+
+```{r}
+dat_mats_wo_seed <- filter(dat, dat$Feature == "5p" | dat$Feature == "3p")
+data_fram2 <- adjust_for_total(dat_mats_wo_seed)
+ggbarplot(data = data_fram2, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Mature Region Excluding seed region")
+```
+
+```{r}
+dat_ends <- filter(dat, dat$Feature == "head" | dat$Feature == "tail")
+data_fram4 <- adjust_for_total(dat_ends)
+ggbarplot(data = data_fram4, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Head and Tail Region")
+```
+
+```{r}
+dat_loop <- filter(dat, dat$Feature == "loop")
+data_fram5 <- adjust_for_total(dat_loop)
+ggbarplot(data = data_fram5, x = "Species", y = "Mutations_per_gene", title = "Mutations per miRNA gene in Loop region")
+```
+
+```{r}
+dat <- mutate(dat, InMature = ifelse(dat$Feature == "5p" | dat$Feature == "3p" | dat$Feature == "5p-seed" | dat$Feature == "3p-seed", "In", "Out"))
+
+vect <- c()
+vect_species <- c()
+vect_in_out <- c()
+for(i in unique(dat$Species)){
+  vect_species <- c(vect_species, rep(i, 2))
+  vect_in_out <- c(vect_in_out, "Outside Mature", "Inside Mature")
+  vect <- c(vect, length(which(dat$Species == i & dat$InMature == "Out")))
+  vect<- c(vect, length(which(dat$Species == i & dat$InMature == "In")))
+}
+
+final_dat <- data.frame("Species" = vect_species, "In_out" <- vect_in_out, "Counts" <- vect/dat_counts$Total)
+
+# vect_out_long <- c()
+# vect_in_long <- c()
+# lens <- c(unique(dat$Total), 244)
+# for(i in length(vect_out)){
+#   vect_out_long <- c(vect_out_long, rep(vect_out[i]/dat_counts$Totals[i], lens[i]))
+#   vect_in_long <- c(vect_in_long, rep(vect_in[i]/dat_counts$Totals[i], lens[i]))
+# }
+# 
+# dat <- mutate(dat, Counts_in = vect_in_long, Counts_out = vect_out_long)
+
+```
+
+```{r}
+final_dat$Species <- factor(final_dat$Species, c("gac", "bdi", "cgo", "ema", "ggi", "nco", "cgu", "cac"))
+ggplot(data = final_dat, aes(fill = In_out, y = Counts, x = Species)) + 
+    geom_bar(position="dodge", stat="identity")
+```
+
+
+
+

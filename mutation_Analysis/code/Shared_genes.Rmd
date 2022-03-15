@@ -1,0 +1,42 @@
+---
+title: "Novel similarity"
+author: "Logan Lewis"
+date: "1/22/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This script counts the amount of novel miRNA genes shared between species 
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+novels <- read.csv("Novel_similarity.tsv", sep = "\t") #novel miRNAs
+novels$Gene_count <- as.numeric(novels$Gene_count)
+```
+
+```{r}
+novels$Species <- factor(novels$Species, c("('bdi', 'cac', 'ggi', 'cgu', 'ema')", "('bdi', 'cgo')", "('cgo',)", "('ema',)", "('cac', 'ggi', 'cgu', 'nco')", "('cac', 'ggi', 'cgu')", "('ggi', 'cgu')", "('ggi',)", "('cgu', 'nco')",  "('cac', 'nco')", "('cgu',)", 	
+"('cac',)" ))
+ggbarplot(data = novels, x = "Species", y = "Gene_count", fill = "black")
+```
+
+```{r}
+fixed_novels <- data.frame(Species = c("Pfl, Gac, Cgo, Bdi, Cgo, Ema, Ggi, Nco, Cgu, Cac", "Pfl, Gac, Cgo, Bdi, Cgo, Ema, Ggi, Cgu, Cac", "Gac, Cgo, Bdi, Cgo, Ema, Ggi, Cgu, Cac", "Bdi, Cgo", "Ema, Ggi, Nco, Cgu, Cac", "Ggi, Nco, Cgu, Cac", "Nco, Cgu, Cac", "Cgu, Cac"), Counts = c(1, 1, 2, 1, 2, 6, 4, 6))
+ggbarplot(data = fixed_novels, x = "Species", y = "Counts", fill = "black")
+```
+
+
+```{r}
+f <- function (g) {
+    groups <- (1:11)[-10]
+    c(groups, groups)[match(g, groups) + 5]
+}
+f(3)
+```
+
